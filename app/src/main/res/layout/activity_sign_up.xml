@@ -17,7 +17,7 @@
         android:id="@+id/textView"
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/h1"
-        android:textColor="#f70505" />
+        android:textColor="@color/text" />
 
     <Button
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
         android:text="@string/signup"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:textColor="#0a0ef9" />
+        android:textColor="#0a0ef9"
+        android:onClick="clickSignUpSign" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -52,13 +53,16 @@
                 android:id="@+id/textView4"
                 android:textSize="@dimen/h2"
                 android:layout_weight="1"
-                android:textColor="#faea06" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText3"
-                android:layout_weight="2" />
+                android:id="@+id/editText"
+                android:layout_weight="2"
+                android:textColor="@color/text"
+                android:onClick="clickSignUpSign" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -73,13 +77,15 @@
                 android:id="@+id/textView5"
                 android:textSize="@dimen/h2"
                 android:layout_weight="1"
-                android:textColor="#29f609" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText4"
-                android:layout_weight="2" />
+                android:id="@+id/editText2"
+                android:layout_weight="2"
+                android:textColor="@color/text" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -94,13 +100,14 @@
                 android:id="@+id/textView2"
                 android:textSize="@dimen/h2"
                 android:layout_weight="1"
-                android:textColor="#04f1f9" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText"
-                android:layout_weight="2" />
+                android:id="@+id/editText3"
+                android:layout_weight="2"
+                android:textColor="@color/text" />
 
         </LinearLayout>
 
@@ -116,13 +123,15 @@
                 android:id="@+id/textView3"
                 android:textSize="@dimen/h2"
                 android:layout_weight="1"
-                android:textColor="#fc06f7" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText2"
-                android:layout_weight="2" />
+                android:id="@+id/editText4"
+                android:layout_weight="2"
+                android:textColor="@color/text" />
+
         </LinearLayout>
 
     </LinearLayout>
