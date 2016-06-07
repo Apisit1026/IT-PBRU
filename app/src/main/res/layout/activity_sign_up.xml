@@ -60,8 +60,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText"
                 android:layout_weight="2"
-                android:textColor="@color/text"
-                android:onClick="clickSignUpSign" />
+                android:textColor="@color/text" />
 
         </LinearLayout>
 
